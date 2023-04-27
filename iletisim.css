@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #fff;
+    background-color: #333;
+    font-family: 'Ubuntu',sans-serif;
+    background: url(kopya.jpg);
+    background-size: cover;
+}
+#contact{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact-area{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cont-left{
+    width: 70%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #fff;
+}
+.cont-element{
+    
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.cont-element i {
+    color:#fff;
+    padding: 0.9rem;
+    border-radius: 50%;
+    border: 2px solid #333;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    transition: all 0.4s ease;
+    
+}
+.cont-elemnt:hover i{
+    background-color: #fff;
+    color: #011627;
+}
+.cont-element a {
+    color:#fff;
+    text-decoration: none;
+     font-size: 25x;
+}
+.cont-bottom{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-bottom a{
+    color:#fff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.9rem;
+    background-color: #181818;
+    border-radius: 50%;
+}
+.cont-bottom a :hover{
+    color:#181818;
+    background-color: #fff;
+}
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.cont-right form input,textarea,button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color:transparent;
+    font-size: 1.2rem;
+    padding: 00.5rem 1rem;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+.cont-right form button{
+    background-color:transparent;
+    color:#ffff;
+    cursor: pointer;
+}
+.cont-right form input:hover,textarea:hover{
+    color: #011627;
+    background-color:transparent;
+}
+.cont-right form input:focus,textarea:focus{
+    color: #fff;
+    background-color:transparent;
+}

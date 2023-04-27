@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(resimler/makarna3.jpg);
+    background-size: cover;
+   
+}
+.header h2{
+    color: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+}
+.menu-bar{
+    text-align: right;
+    margin: -70px;
+    margin-right:40px ;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.menu-bar ul li {
+    width: 150px;
+    margin:7px;
+    padding: 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+}
+.menu-bar ul li i{
+    margin: 2px;
+}
+.active, .menu-bar ul li:hover{
+    background: slategray;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.reklam h2{
+    text-align: left;
+    color: #fff;
+    margin: 190px;
+    margin-right: 990px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.reklam p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 130px;
+    margin: -130px;
+    margin-left: 190px;
+    width: 700px;
+    height: 210px;
+    background-color: rgb(255,255,255,0.5);
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+    letter-spacing: 8px;
+}
+.featured-buttons button{
+    margin-top: 140px;
+    margin-left: 740px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    column-gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  
+  .featured-buttons .info-button{
+      background-color:#333;
+      color: white;
+      opacity: 1;
+  }
+  
+.featured-buttons .info-button:hover{
+    color: red;
+}
+
+.featured-buttons .info-button i{
+    color: #fff;
+}
+.featured-buttons .info-button a{
+    color: #fff;
+}
